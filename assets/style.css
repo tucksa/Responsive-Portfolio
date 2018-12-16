@@ -51,7 +51,7 @@ a:focus {
     border:solid #13a089;
 }
 body {
-    background-image: url("../images/new_year_background/new_year_background.png");
+    background-image: url("new_year_background.png");
 }
 section{
     background-color: white;
@@ -138,14 +138,14 @@ input {
     text-align: center;
     margin-top:5px;
 }
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
     section {
         padding:25px;
         margin: 25px, 100px, 50px, 100px;
     }
 }
-@media (max-width: 768px) {
-     footer {
+@media screen and (max-width: 768px) {
+    footer {
         position: static; 
     }
     section {
@@ -155,13 +155,17 @@ input {
     #message {
         height: 100px;
     }
+
 }
-@media (max-width: 640px) {
+
+@media screen and (max-width: 640px) {
     footer {
         position: static; 
     }
      .your-name, h2, a {
         display: block;
+        width: 100%;
+        float: none; 
     }
     section {
         padding: 5px;
