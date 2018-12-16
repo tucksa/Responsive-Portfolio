@@ -141,16 +141,24 @@ input {
 @media screen and (max-width: 980px) {
     section {
         padding:25px;
-        margin: 25px, 100px, 50px, 100px;
+        margin: 15px 50px;
     }
 }
 @media screen and (max-width: 768px) {
     footer {
         position: static; 
     }
+    .your-name, a, h2 {
+        text-align: center;
+        display: block;
+        width: 100%;
+        float: none; 
+        margin: auto;
+        margin-bottom: 20px;
+    }
     section {
         padding: 15px;
-        margin: 15px, 50px, 25px, 50px;
+        margin: auto;
     }
     #message {
         height: 100px;
@@ -162,16 +170,24 @@ input {
     footer {
         position: static; 
     }
-     .your-name, h2, a {
+     .your-name, a, h2 {
+        text-align: center;
         display: block;
         width: 100%;
         float: none; 
+        margin: auto;
+        margin-bottom: 10px;
     }
     section {
         padding: 5px;
-        margin: 5px, 25px, 10px, 25px;
+        margin: auto;
     }
     #message {
         height: 75px;
+    }
+    .pic {
+        float: none;
+        display: block;
+        margin-left: 25%;
     }
 }
