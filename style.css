@@ -8,6 +8,7 @@ header {
     content: "";
     display: block;
     clear: both;
+    overflow: auto;
 }
 .your-name {
     background-color: #13a089;
@@ -136,4 +137,37 @@ input {
     font-size: 10px;
     text-align: center;
     margin-top:5px;
+}
+@media (max-width: 980px) {
+    section {
+        padding:25px;
+        margin: 25px, 100px, 50px, 100px;
+    }
+}
+@media (max-width: 768px) {
+     footer {
+        position: static; 
+    }
+    section {
+        padding: 15px;
+        margin: 15px, 50px, 25px, 50px;
+    }
+    #message {
+        height: 100px;
+    }
+}
+@media (max-width: 640px) {
+    footer {
+        position: static; 
+    }
+     .your-name, h2, a {
+        display: block;
+    }
+    section {
+        padding: 5px;
+        margin: 5px, 25px, 10px, 25px;
+    }
+    #message {
+        height: 75px;
+    }
 }
