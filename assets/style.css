@@ -1,5 +1,5 @@
 header {
-    background-color:white;
+    background-color:#13a089;
     margin: 0px;
     border: solid #cccccc; 
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -11,7 +11,7 @@ header {
     overflow: auto;
 }
 .your-name {
-    background-color: #13a089;
+    background-color: white;
     float:left;
     width: 25%;
     margin-left: 200px;
@@ -24,21 +24,19 @@ nav {
 h1 {
     padding: 15px;
     text-align:center;
-    color: white;
+    color: #13a089;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-a {
-    border:none;
-    background:none;
+.my-link{
     border-right: solid #cccccc;
-    padding:5px;
+    padding: 5px;
     text-align: center;
     width: 25%;
     float:left;
     margin-top:35px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 a:hover {
@@ -54,7 +52,7 @@ body {
     background-image: url("new_year_background.png");
 }
 section{
-    background-color: white;
+    background-color: #13a089;
     padding: 25px;
     margin: 50px 200px 100px 200px;
     overflow: auto;
@@ -71,7 +69,7 @@ footer {
     right: 0px;
 }
 h2 {
-    color: #13a089;
+    color: white;
     border-bottom: solid #dddddd;
     padding:20px 0px;
     font-size: 30px;
@@ -90,17 +88,22 @@ p {
     line-height: 150%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-top: 15px;
+    color: white;
+}
+label {
+    color: white;
 }
 .form {
     margin: 15px 0px;
 }
 .submit {
-    background-color:#13a089;
+    background-color:white;
     border:none;
     margin:0px;
-    color: white;
+    color: #13a089;
     font-size: 15px;
     width:15%;
+    padding: 2%;
 }
 input {
     margin: 10px 0px;
@@ -121,15 +124,18 @@ input {
     margin-right: 30px;
     height: 200px;
     width: 300px;
+    border: solid #dddddd;
 }
 .port-btn {
     position: absolute;
     left: 0px;
     bottom: 15px;
-    background-color: #13a089;
-    width: 100%;
+    background-color: #dddddd;
+    width: 97%;
     height: 25%;
     border: none;
+    font-size: 200%;
+    color: #13a089;
 }
 .copyright {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
